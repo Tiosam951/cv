@@ -1,0 +1,41 @@
+#encabezado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+#intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify ;
+    float: left;
+    height: auto;
+    padding: 5px;
+}
+
+img{
+    width: 170px;
+    align-items: center;
+    padding-left: 235px;
+}
+
+ol, ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#semana{
+    text-align: center;
+}
+
+table, th, td, tr{
+    border: 1px solid  black;
+    padding: 5px;
+    text-align: center;
+    background-color: aquamarine;
+}
