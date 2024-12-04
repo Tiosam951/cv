@@ -1,3 +1,7 @@
+body{
+    background-color: aquamarine;
+}
+
 #encabezado{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -6,16 +10,16 @@
 
 #intro{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: justify ;
-    float: left;
+    text-align: justify;
     height: auto;
     padding: 5px;
 }
 
 img{
-    width: 170px;
-    align-items: center;
-    padding-left: 235px;
+    width: 150px;
+    padding-left: 5px;
+    display: flex;
+    margin: 5px auto;
 }
 
 ol, ul{
@@ -29,13 +33,64 @@ ol, ul{
     clear: both;
 }
 
-#semana{
+#semana, h4{
     text-align: center;
 }
 
 table, th, td, tr{
-    border: 1px solid  black;
+    border: 2px solid black;
     padding: 5px;
     text-align: center;
-    background-color: aquamarine;
+    display: ruby-base-container center;
+    margin: 5px auto;
+    background-color: azure;
+    
 }
+
+form{
+    background-color: azure;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px auto;
+    box-shadow: 0, 0, 20px black;
+}
+label{
+    display: block;
+    padding: 5px;
+    margin: 15px, 0, 0;
+    text-align: center;
+}
+textarea, [type=text]{
+    border-radius: 5px;
+    border: 2px solid   black;
+    padding: 5px;
+    width: 300px;
+}
+
+input[type=submit]:hover{
+    color: red;
+}
+textarea, [type=text]{
+    border-radius: 5px;
+    border: 2px solid   black;
+    padding: 5px;
+    width: calc(330px - 5px);
+}
+input[type=submit]{
+    border-radius: 5px;
+    border: 2px solid   black;
+    padding: 5px;
+    padding-left: 0%;
+    width: auto;
+    display: flex;
+}
+
+footer{
+    padding: 15px;
+    margin-left: 5px auto;
+    display: ruby-text-container;
+    text-align: center;
+}
+
