@@ -29,6 +29,11 @@ ol, ul{
     padding-left: 10%;
 }
 
+.title1, .title2{
+    color: blue;
+    font-weight: bold;
+}
+
 .clearfix{
     clear: both;
 }
