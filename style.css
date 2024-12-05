@@ -33,8 +33,12 @@ ol, ul{
     clear: both;
 }
 
-#semana, h4{
+h4{
     text-align: center;
+}
+
+.semana{
+    color: red;
 }
 
 table, th, td, tr{
